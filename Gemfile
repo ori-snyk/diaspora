@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "rails", "5.2.6"
+gem "rails", "7.0.0"
 
 # Legacy Rails features, remove me!
 # responders (class level)
@@ -64,7 +64,7 @@ gem "autoprefixer-rails",     "10.2.5.1"
 gem "bootstrap-sass",         "3.4.1"
 gem "bootstrap-switch-rails", "3.3.3" # 3.3.4 and 3.3.5 is broken, see https://github.com/Bttstrp/bootstrap-switch/issues/691
 gem "compass-rails",          "3.1.0"
-gem "sass-rails",             "5.0.7"
+gem "sass-rails", "6.0.0"
 gem "sprockets-rails",        "3.2.2"
 
 # Database
@@ -97,7 +97,7 @@ gem "handlebars_assets", "0.23.9"
 gem "jquery-rails",      "4.4.0"
 gem "jquery-ui-rails",   "5.0.5"
 gem "js-routes",         "1.4.14"
-gem "js_image_paths",    "0.1.1"
+gem "js_image_paths", "0.2.0"
 gem "sprockets-es6",     "0.9.2"
 
 source "https://gems.diasporafoundation.org" do
@@ -143,7 +143,7 @@ gem "rails-i18n",           "5.1.3"
 gem "markerb",             "1.1.0"
 
 # Map
-gem "leaflet-rails",       "1.7.0"
+gem "leaflet-rails", "1.9.4"
 
 # Parsing
 
@@ -294,7 +294,7 @@ group :development, :test do
   gem "rspec-rails", "5.0.1"
 
   # Cucumber (integration tests)
-  gem "cucumber-rails", "2.3.0", require: false
+  gem "cucumber-rails", "3.0.0", require: false
 
   # Jasmine (client side application tests (JS))
   gem "chrome_remote",             "0.3.0"
