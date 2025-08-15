@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "rails", "5.2.6"
+gem "rails", "7.1.5.2"
 
 # Legacy Rails features, remove me!
 # responders (class level)
@@ -76,7 +76,7 @@ group :postgresql, optional: true do
   gem "pg",     "1.2.3"
 end
 
-gem "activerecord-import", "1.1.0"
+gem "activerecord-import", "1.2.0"
 
 # File uploading
 
@@ -97,7 +97,7 @@ gem "handlebars_assets", "0.23.9"
 gem "jquery-rails",      "4.4.0"
 gem "jquery-ui-rails",   "5.0.5"
 gem "js-routes",         "1.4.14"
-gem "js_image_paths",    "0.1.1"
+gem "js_image_paths", "0.2.0"
 gem "sprockets-es6",     "0.9.2"
 
 source "https://gems.diasporafoundation.org" do
@@ -143,7 +143,7 @@ gem "rails-i18n",           "5.1.3"
 gem "markerb",             "1.1.0"
 
 # Map
-gem "leaflet-rails",       "1.7.0"
+gem "leaflet-rails", "1.8.0"
 
 # Parsing
 
@@ -178,7 +178,7 @@ gem "active_model_serializers", "0.9.7"
 
 # Tags
 
-gem "acts-as-taggable-on", "8.1.0"
+gem "acts-as-taggable-on", "10.0.0"
 
 # URIs and HTTP
 
@@ -275,7 +275,7 @@ group :test do
 
   gem "apparition",       "0.6.0"
   gem "capybara",         "3.35.3"
-  gem "database_cleaner-active_record", "1.8.0"
+  gem "database_cleaner-active_record", "1.99.0"
 
   gem "cucumber-api-steps", "0.14", require: false
 
