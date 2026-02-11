@@ -16,7 +16,7 @@ gem "unicorn-worker-killer", "0.4.5"
 # Federation
 
 gem "diaspora_federation-json_schema", "0.2.7"
-gem "diaspora_federation-rails", "0.2.7"
+gem "diaspora_federation-rails", "1.0.0"
 
 # API and JSON
 
@@ -148,7 +148,7 @@ gem "leaflet-rails",       "1.7.0"
 # Parsing
 
 gem "nokogiri",          "1.11.7"
-gem "open_graph_reader", "0.7.2" # also update User-Agent in features/support/webmock.rb and open_graph_cache_spec.rb
+gem "open_graph_reader", "0.8.0" # also update User-Agent in features/support/webmock.rb and open_graph_cache_spec.rb
 gem "redcarpet",         "3.5.1"
 gem "ruby-oembed",       "0.15.0"
 gem "twitter-text",      "3.1.0"
@@ -183,9 +183,9 @@ gem "acts-as-taggable-on", "8.1.0"
 # URIs and HTTP
 
 gem "addressable",        "2.7.0", require: "addressable/uri"
-gem "faraday",            "0.17.4"
+gem "faraday", "2.14.1"
 gem "faraday_middleware", "0.13.1"
-gem "faraday-cookie_jar", "0.0.6"
+gem "faraday-cookie_jar", "0.0.7"
 gem "typhoeus",           "1.4.0"
 
 # Views
@@ -243,10 +243,10 @@ end
 group :development do
   # Linters
   gem "haml_lint",      "0.37.1", require: false
-  gem "pronto",         "0.11.0", require: false
-  gem "pronto-eslint",  "0.11.0", require: false
-  gem "pronto-haml",    "0.11.0", require: false
-  gem "pronto-rubocop", "0.11.1", require: false
+  gem "pronto", "0.11.1", require: false
+  gem "pronto-eslint", "0.11.1", require: false
+  gem "pronto-haml", "0.11.1", require: false
+  gem "pronto-rubocop", "0.11.2", require: false
   gem "pronto-scss",    "0.11.0", require: false
   gem "rubocop",        "0.93.1", require: false
   gem "rubocop-rails",  "2.9.1", require: false
@@ -286,7 +286,7 @@ group :test do
   gem "timecop",           "0.9.4"
   gem "webmock",           "3.13.0", require: false
 
-  gem "diaspora_federation-test", "0.2.7"
+  gem "diaspora_federation-test", "1.0.0"
 end
 
 group :development, :test do
